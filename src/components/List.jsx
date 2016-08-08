@@ -1,7 +1,8 @@
 var React = require('react');
 var ListItem = require('./ListItem.jsx');
 
-var ingredients = [{"id":1,"text":"ham"}, {"id":2,"text":"cheese"},{"id":3,"text":"potatoes"}, {"id":4,"text":"potatoesss"}];
+var ingredients = [{"id":1,"text":"ham"}, {"id":2,"text":"cheese"},
+                   {"id":3,"text":"potatoes"}, {"id":4,"text":"potatoesss"}];
 
 var List = React.createClass({
     render: function() {
